@@ -1,0 +1,7 @@
+.dbc-list {
+    list-style-type: none;
+    margin: 0 0 5px 0;
+}
+.dbc-list:last-child {
+    margin: 0;
+}

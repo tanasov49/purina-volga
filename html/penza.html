@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pages/kaliningrad.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <a href="../index.html" class="header__link">
+                <img class="header__logo" src="../images/PurinaRUHeader_2.webp" alt="Логотип">
+            </a>
+            <ul class="cities">
+                <li class="city">
+                    <a href="./vladimir.html" class="city__link">Владимир</a>
+                </li>
+                <li class="city">
+                    <a href="./penza.html" class="city__link">Пенза
+                    </a>
+                </li>
+                <li class="city">
+                    <a href="./siktivkar.html" class="city__link">Сыктывкар</a>
+                </li>
+                <li class="city">
+                    <a href="./cheboksari.html" class="city__link">Чебоксары</a>
+                </li>
+                <li class="city">
+                    <a href="./ivanovo.html" class="city__link">Иваново</a>
+                </li>
+                <li class="city">
+                    <a href="./yaroslav.html" class="city__link">Ярославль</a>
+                </li>
+                <li class="city">
+                    <a href="./ufa.html" class="city__link">Уфа</a>
+                </li>
+                <li class="city">
+                    <a href="./kazan.html" class="city__link">Казань</a>
+                </li>
+            </ul>
+        </header>
+        <main class="main">
+            <section class="info">
+                <h1 class="info__title">Добро пожаловать на сайт</h1>
+                <p class="info__subtitle">Выберите ниже нужный вам адрес</p>
+            </section>
+            <section class="address-clients">
+                <button class="address-clients__btn">Список адресов</button>
+                <h2 class="address-clients__title">Ниже приведены позиции с нулевым значением</h2>
+                <div class="popup">
+                    <button class="address-clients__close-btn"></button>
+                    <ul class="address">
+                    </ul>
+                </div>
+                <ul class="dbc-codes">
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">2022 &copy; Александр Танасов</p>
+        </footer>
+        <template class="template-dbc">
+            <li class="dbc-list">
+            </li>
+        </template>    
+    </div>
+    <script src="../scripts/dbc_penza.js"></script>
+    <script src="../scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/cities/cities.css);
+@import url(../blocks/city/city.css);
+@import url(../blocks/city/__link/city__link.css);
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/address-clients/address-clients.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/address/address.css);
+@import url(../blocks/address/__title/address-clients__title.css);
+@import url(../blocks/address/__close-btn/address-clients__close-btn.css);
+@import url(../blocks/address/__btn/address-clients__btn.css);
+@import url(../blocks/address/__option/address__option.css);
+@import url(../blocks/dbc-codes/dbc-codes.css);
+@import url(../blocks/dbc-list/dbc-list.css);
+@import url(../blocks/dbc-list/__text/dbc-list__text.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #f5f1e5;
+    font-family: 'Roboto', sans-serif;
+}
