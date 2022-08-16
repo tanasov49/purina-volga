@@ -33,6 +33,7 @@ dbc.forEach(function (dbc) {
   const dbcValue = Object.values(dbc);
   for (let i = 0; i <= dbcKey.length; i++) {
     const dbcText = document.createElement('p');
+
     dbcText.className = 'dbc-list__text';
     if (dbcValue[i] === "0") {
       dbcText.textContent = dbcKey[i];
